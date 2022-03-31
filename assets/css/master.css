@@ -80,12 +80,12 @@ a:focus-visible {
 }
 
 .link-opens-chapter{
- padding-bottom: 20%;
+ /* padding-bottom: 20%; */
  display: inline-block;
 }
 
 .extra-links .link-opens-chapter{
-  padding-bottom: 0%;
+  /* padding-top: 20%; */
 }
 
 .intro{
@@ -163,6 +163,10 @@ header{
 
 header h1{
   width: 25vw;
+}
+
+footer{
+  padding-top: 20%;
 }
 
 nav{

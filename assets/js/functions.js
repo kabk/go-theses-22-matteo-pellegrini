@@ -22,7 +22,7 @@ $('a.link-opens-chapter').on('click', function(e){
     $('section'+$target+'').removeClass('hidden');
 	$('section'+$target+'').css({'order': i});
 
-    if (i==4){
+    if (i==15){
       $("#conclusion").removeClass('hidden');
       $('.extra-links').addClass('hidden');
     }
