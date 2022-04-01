@@ -216,6 +216,12 @@ details > p {
   font: calc(var(--font-size)*0.8) var(--font-family);
 }
 
+.interview{
+  line-height: 150%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 
 /* GENERAL USABILITY */
 
@@ -265,10 +271,16 @@ details > p {
     padding-left:5%;
     padding-right:5%;
     box-sizing: content-box;
+
   }
 
   header h1{
     width: 69vw;
+  }
+
+  .interview{
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
 }
